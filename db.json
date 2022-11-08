@@ -1,12 +1,13 @@
 {
   "loansearch": [
-    { "loansCount" : "1", 
-      "loanNumbers": ["0000000001"],
-      "id":1
+    {  "id": 1,
+     "loansCount" : "1", 
+      "loanNumbers": ["0000000001"]
     }
   ],
   "loandetails": [
     { 
+	     "id": 1,
    "numOfLoansMatched" : 1,
    "loanDetails" : [
 	   {
@@ -17,8 +18,7 @@
 	   	"authMatch":true
 	   	
 	   }
-   ],
-	    "id":1
+   ]
    }
   ],
   "profile": {
