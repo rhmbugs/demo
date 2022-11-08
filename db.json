@@ -1,5 +1,25 @@
 {
-   "loansCount" : "1", 
-  "loanNumbers": ["0000000001"] 
-
+  "loansearch": [
+    { "loansCount" : "1", 
+      "loanNumbers": ["0000000001"] 
+    }
+  ],
+  "loandetails": [
+    { 
+   "numOfLoansMatched" : 1,
+   "loanDetails" : [
+	   {
+	   	"loanNumber": "0000000001",
+	   	"gcid"	: "",
+	   	"unpaidPrincipalBalance":120.00,
+	   	"borrowerOrderNumber":123,
+	   	"authMatch":true
+	   	
+	   }
+   ]
+   }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
